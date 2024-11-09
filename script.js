@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    const apiKey = 'a8a907d2296544afb79d915ed352c4ea'; // Inserisci qui la tua API key di News API
+    const apiKey = a8a907d2296544afb79d915ed352c4ea; // Inserisci qui la tua API key di News API
     const query = 'League of Legends';
     const url = `https://newsapi.org/v2/everything?q=${query}&sortBy=publishedAt&language=it&apiKey=${apiKey}`;
 
